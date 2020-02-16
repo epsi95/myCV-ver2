@@ -3,7 +3,8 @@ body {
   text-align: center;
 }
 .top-box {
-  margin-top: 100px;
+  padding-top: 100px;
+  position: relative;
 }
 
 .middle-box {
@@ -27,4 +28,5 @@ body {
 .bottom-cloud {
   position: absolute;
   left: 20%;
+  bottom: 300px;
 }
