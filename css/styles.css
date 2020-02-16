@@ -1,22 +1,39 @@
 body {
-  background-color: #e2f8f7;
   text-align: center;
+  font-family: 'Merriweather', serif;
 }
+
+#underline{
+  text-decoration: overline;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .top-box {
+  background-color: #e2f8f7;
   padding-top: 100px;
   position: relative;
 }
 
 .middle-box {
-  height: 200px;
-  width: 200px;
-  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f67280;
+  color: white;
 }
 
 .bottom-box {
-  height: 200px;
-  width: 200px;
-  background-color: green;
+  padding-top: 10px;
 }
 
 .top-cloud {
@@ -29,4 +46,20 @@ body {
   position: absolute;
   left: 20%;
   bottom: 300px;
+}
+
+#circular_avatar{
+  border-radius: 50%;
+}
+
+hr{
+  border-style: dotted none none none;
+  width: 200px;
+  border-width: 10px;
+  border-color: white;
+
+}
+.skill-icon{
+  height: 100px;
+  width: 100px;
 }
