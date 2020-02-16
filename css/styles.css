@@ -1,0 +1,30 @@
+body {
+  background-color: #e2f8f7;
+  text-align: center;
+}
+.top-box {
+  margin-top: 100px;
+}
+
+.middle-box {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.bottom-box {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+}
